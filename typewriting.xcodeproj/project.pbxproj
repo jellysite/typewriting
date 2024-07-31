@@ -14,6 +14,7 @@
 		BDC4A7C72C5A2BFC00D1810C /* typewritingTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = BDC4A7C62C5A2BFC00D1810C /* typewritingTests.swift */; };
 		BDC4A7D12C5A2BFC00D1810C /* typewritingUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = BDC4A7D02C5A2BFC00D1810C /* typewritingUITests.swift */; };
 		BDC4A7D32C5A2BFC00D1810C /* typewritingUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = BDC4A7D22C5A2BFC00D1810C /* typewritingUITestsLaunchTests.swift */; };
+		BDC4A8162C5A2F6200D1810C /* SwiftUIView.swift in Sources */ = {isa = PBXBuildFile; fileRef = BDC4A8152C5A2F6200D1810C /* SwiftUIView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -44,6 +45,7 @@
 		BDC4A7CC2C5A2BFC00D1810C /* typewritingUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = typewritingUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		BDC4A7D02C5A2BFC00D1810C /* typewritingUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = typewritingUITests.swift; sourceTree = "<group>"; };
 		BDC4A7D22C5A2BFC00D1810C /* typewritingUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = typewritingUITestsLaunchTests.swift; sourceTree = "<group>"; };
+		BDC4A8152C5A2F6200D1810C /* SwiftUIView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = SwiftUIView.swift; path = typewriting/SwiftUIView.swift; sourceTree = SOURCE_ROOT; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -105,6 +107,7 @@
 		BDC4A7BB2C5A2BFB00D1810C /* Preview Content */ = {
 			isa = PBXGroup;
 			children = (
+				BDC4A8152C5A2F6200D1810C /* SwiftUIView.swift */,
 				BDC4A7BC2C5A2BFB00D1810C /* Preview Assets.xcassets */,
 			);
 			path = "Preview Content";
@@ -259,6 +262,7 @@
 			files = (
 				BDC4A7B82C5A2BF900D1810C /* ContentView.swift in Sources */,
 				BDC4A7B62C5A2BF900D1810C /* typewritingApp.swift in Sources */,
+				BDC4A8162C5A2F6200D1810C /* SwiftUIView.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
